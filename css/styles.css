@@ -1,0 +1,131 @@
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+p {
+  padding: 20px 40px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: #DCE4F1;
+  background-image: url("images/backgroundcover.jpg");
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #DCE4F1;
+  position: relative;
+  padding: 20px 0;
+}
+
+.green-box {
+  width: 150px;
+  height: 150px;
+  background-color: #46E3A6;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.blue-box {
+  width: 150px;
+  height: 150px;
+  background-color: #349FE3;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.purple-box {
+  width: 150px;
+  height: 150px;
+  background-color: #F32AFA;
+  margin-left: 600px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.orange-box {
+  width: 150px;
+  height: 150px;
+  background-color: #FA4B2D;
+  margin-left: 900px;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.yellow-box {
+  width: 150px;
+  height: 150px;
+  background-color: #FAD10F;
+  margin-left: 1200px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: red;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+#top {
+  color: white;
+  float: none;
+  margin-top: 0;
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+
+#top li {
+  display: inline;
+  margin: 15px;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+#top ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#bottom li {
+  display: inline;
+  margin: 15px;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.container-fluid {
+  margin: auto;
+  padding: 20px;
+  display: block;
+}
+
+.child {
+  ... margin: 0 auto;
+}
