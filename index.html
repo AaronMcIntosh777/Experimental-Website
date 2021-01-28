@@ -18,16 +18,6 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 
   <script src="js/jquery-3.5.1.min.js"></script>
-
-
-  <script>
-    $(document).ready(function() {
-      $("body").hide().fadeIn(2500);
-    });
-  </script>
-
-
-
 </head>
 
 
@@ -52,21 +42,30 @@
 
 
 
-    <div class="green-box" "headline">
-    </div>
-    <div class="blue-box" "headline">
-    </div>
-    <div class="purple-box" "headline">
-    </div>
-    <div class="orange-box" "headline">
-    </div>
-    <div class="yellow-box" "headline">
-    </div>
-  
 
-  <script>
-      ScrollReveal().reveal('.headline');
-    </script>
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-color:red;">
+          <img src="..." class="d-block w-100" alt="first slide">
+        </div>
+        <div class="carousel-item" style="background-color:yellow;">
+          <img src="..." class="d-block w-100" alt="second slide">
+        </div>
+        <div class="carousel-item" style="background-color:blue;">
+          <img src="..." class="d-block w-100" alt="third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
 
   <h1>HELLO!</h1>
 
@@ -91,6 +90,31 @@
       <li><a href="">Contact</a></li>
     </ul>
   </nav></footer>
+
+
+  <script>
+    $(document).ready(function() {
+      $("body").hide().fadeIn(2500);
+    });
+  </script>
+
+
+  <div class="green-box" "headline">
+  </div>
+  <div class="blue-box" "headline">
+  </div>
+  <div class="purple-box" "headline">
+  </div>
+  <div class="orange-box" "headline">
+  </div>
+  <div class="yellow-box" "headline">
+  </div>
+
+
+  <script>
+    ScrollReveal().reveal('.headline');
+  </script>
+
 </body>
 
 
