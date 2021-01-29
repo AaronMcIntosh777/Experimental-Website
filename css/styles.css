@@ -2,6 +2,13 @@ body {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
+.imgResize {
+  width: 50%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
 p {
   padding: 20px 40px;
 }
@@ -29,61 +36,58 @@ footer {
 
 /* Colored Squares */
 
-.green-box {
+.colsquarecontainer {
+  width: 90%;
+  height: 200px;
+  margin:auto;
+  margin-bottom: 10%;
+  display: block;
+}
+
+.green-box {display: inline-block;
   width: 150px;
   height: 150px;
   background-color: #46E3A6;
   position: absolute;
-  margin-top: 80px;
-  padding-bottom: 50px;
-  margin-bottom: 30%;
 }
 
-.blue-box {
+.blue-box {display: inline-block;
   width: 150px;
   height: 150px;
   background-color: #349FE3;
   margin-left: 300px;
   position: absolute;
-  margin-top: 80px;
-  margin-bottom: 30%;
+
 }
 
-.purple-box {
+.purple-box {display: inline-block;
   width: 150px;
   height: 150px;
   background-color: #F32AFA;
   margin-left: 600px;
-  margin-top: 80px;
   position: absolute;
-  margin-bottom: 30%;
 }
 
-.orange-box {
+.orange-box {display: inline-block;
   width: 150px;
   height: 150px;
   background-color: #FA4B2D;
   margin-left: 900px;
-  margin-top: 80px;
   position: absolute;
-  margin-bottom: 30%;
 }
 
-.yellow-box {
+.yellow-box {display: inline-block;
   width: 150px;
   height: 150px;
   background-color: #FAD10F;
   margin-left: 1200px;
-  margin-top: 80px;
   position: absolute;
-  margin-bottom: 30%;
 }
 
 /* Carousel */
-
 .carousel-item {
-    height: 500px;
-    padding: 7% 15%;
+  height: 500px;
+  padding: 7% 15%;
 }
 
 .container {
@@ -95,7 +99,7 @@ footer {
   height: 100px;
   width: 100%;
   text-align: center;
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   color: red;
@@ -129,6 +133,7 @@ nav a {
 }
 
 #bottom li {
+  text-align: center;
   display: inline;
   margin: 15px;
   margin-top: 20px;
@@ -139,6 +144,11 @@ nav a {
   margin: auto;
   padding: 20px;
   display: block;
+}
+
+.section {
+  background-color: #D1EBCF;
+  margin-bottom: 40px;
 }
 
 .child {
